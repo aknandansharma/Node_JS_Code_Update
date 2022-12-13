@@ -15,7 +15,7 @@ const fs = require("fs");
 
 // fs.renameSync("hello.txt", "readwrite.txt");
 
-// fs.writeFileSync("nandan/hello.txt", "Hello from Node.js! This is first operation.");
+fs.writeFileSync("hello.txt", "Hello from Node.js! This is first operation.");
 
 // fs.appendFileSync("nandan/hello.txt", "Hello from Node.js! by Aknandan Sharma. Auranganbad Bihar This is Bihari pokharhan Aurangabad :-)");
 
@@ -31,3 +31,5 @@ const fs = require("fs");
 // fs.unlinkSync("nandan/readwrite.txt");
 
 // fs.rmdirSync("nandan");
+
+fs.mkdir("AsyncFile")
