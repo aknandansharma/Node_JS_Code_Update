@@ -1,5 +1,7 @@
 const fs = require("fs");
 
+                                                        /*   All Operation Is Synchronous */
+
 // Create a file named "hello.txt":
 // fs.writeFileSync("hello.txt", "Hello from Node.js!");
 
@@ -15,7 +17,7 @@ const fs = require("fs");
 
 // fs.renameSync("hello.txt", "readwrite.txt");
 
-fs.writeFileSync("hello.txt", "Hello from Node.js! This is first operation.");
+// fs.writeFileSync("hello.txt", "Hello from Node.js! This is first operation.");
 
 // fs.appendFileSync("nandan/hello.txt", "Hello from Node.js! by Aknandan Sharma. Auranganbad Bihar This is Bihari pokharhan Aurangabad :-)");
 
@@ -32,4 +34,41 @@ fs.writeFileSync("hello.txt", "Hello from Node.js! This is first operation.");
 
 // fs.rmdirSync("nandan");
 
-fs.mkdir("AsyncFile")
+// fs.mkdir("AsyncFile")
+
+
+
+                                                        /*   All Operation Is Asynchronous */    
+
+
+// File Creating
+// fs.mkdir("asyncFile" , (err)=>{
+//     console.log("File is created")
+// })      
+
+// Inside asyncFile read.text created
+// fs.writeFile("asyncFile/read.txt", "This file is created!", (err) => {
+//   console.log("text file is created");
+// });
+
+
+// read.text data updating 
+// fs.appendFile("asyncFile/read.txt", "This file is created!\n data updating", (err) => {
+//   console.log("text file is data is complited.");
+// });
+
+
+// Reading the data
+// fs.readFile("asyncFile/read.txt", 'utf-8', (err, data) => {
+//   console.log(data);
+// });
+
+// file name change
+// fs.rename("asyncFile/read.txt", "asyncFile/readFile.txt", (err) => {
+//   console.log("File Name Changed");
+// });
+
+// file name change
+// fs.rmdir("asyncFile", (err) => {
+//   console.log("File Deleted");
+// });

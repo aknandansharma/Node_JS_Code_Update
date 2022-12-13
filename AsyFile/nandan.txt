@@ -1,1 +1,0 @@
-this is presonal file somthing.Now we need to say what to do when fs.writeFile has complited 
