@@ -1,0 +1,19 @@
+1. What is HTML?
+Ans: HTML stands for HyperText Markup Language. It is a standard markup language for web page creation. It allows the creation and structure of sections, paragraphs, and links using HTML elements (the building blocks of a web page) such as tags and attributes.
+2. What do you mean by a markup language?
+Ans: A markup language is a computer language that uses tags to define elements within a document. It is human-readable, meaning markup files contain standard words, rather than typical programming syntax. While several markup languages exist, HTML and XML are the most popular.
+3. Can you share examples of other markup languages and how they differ from HTML?
+Ans: XML is also based on SGML. It is less strict than SGML and more exacting than plain HTML. XML provides the extensibility to create various different languages. XML is a language for writing markup languages.
+4. What version of HTML do you use in your projects? How is HTML 5 different from HTML 4?
+Ans: HTML 5 is the latest and more advanced version of HTML 4. HTML5 comes with new tags, and new features, and has simplified various functions. While many people considered HTML 4 a bit complicated, HTML5 offers more flexibility to developers in making a stunning website. So I am using HTML5.
+5. What are attributes in HTML?
+Ans: HTML attributes are special words used inside the opening tag to control the element's behaviour. HTML attributes are a modifier of an HTML element type.
+6. What are data- attributes good for?
+Ans: data-* attributes allow us to store extra information on the standard, semantic HTML elements without other hacks such as non-standard attributes, or extra properties on DOM.
+7. Describe the difference between &<script>, <script async> and <script defer>.
+Ans: <script> = used to define a client-side script. <script async≥= If async is present: The script is executed asynchronously with the rest of the page (the script will be executed while the page continues the parsing) If async is not present and defer is present: The script is executed when the page has finished parsing. <script defer≥= The defer attribute tells the browser to only execute the script file once the HTML document has been fully parsed.
+8. Why is it generally a good idea to position CSS <link>s between <head></head&> and JS <script>s just before </body>? Do you know any exceptions?
+Ans: Performance reasons. You want the CSS to be available as soon as possible to correctly display the site, and scripts in the head would block rendering while they're being loaded, so you want them to be requested after the rest of the document.
+
+
+
